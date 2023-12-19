@@ -1,0 +1,37 @@
+version: '3'
+services:
+  ldap:
+    image: osixia/openldap
+    # ...
+
+  cups:
+    image: some/cups
+    # ...
+
+  nextcloud:
+    image: nextcloud
+    # ...
+
+  intranet:
+    image: nginx
+    # ...
+
+  dns:
+    image: bind
+    # ...
+
+  firewall:
+    image: your-firewall-image
+    # ...
+
+  mail:
+    image: your-mail-image
+    # ...
+
+  bandwidth:
+    image: your-bandwidth-image
+    # ...
+
+  qos:
+    image: your-qos-image
+    # ...
